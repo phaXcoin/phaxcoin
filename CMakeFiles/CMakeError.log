@@ -1,0 +1,26 @@
+Determining if files pthread.h exist failed with the following output:
+Change Dir: /home/aphunuedirin/phaxcoin/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3829308838/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3829308838.dir/build.make CMakeFiles/cmTryCompileExec3829308838.dir/build
+make[1]: Entering directory `/home/aphunuedirin/phaxcoin/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/aphunuedirin/phaxcoin/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3829308838.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -std=c11  -Wall -Wextra -Wpointer-arith -Wundef -Wvla -Wwrite-strings -Werror -Wno-error=extra -Wno-error=unused-function -Wno-error=deprecated-declarations -Wno-error=sign-compare -Wno-error=strict-aliasing -Wno-error=type-limits -Wno-unused-parameter -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wno-error=unused-result -Wlogical-op -Wno-error=maybe-uninitialized -Wno-error=clobbered -Wno-error=unused-but-set-variable -Waggregate-return -Wnested-externs -Wold-style-definition -Wstrict-prototypes -march=native -maes    -o CMakeFiles/cmTryCompileExec3829308838.dir/CheckIncludeFiles.c.o   -c /home/aphunuedirin/phaxcoin/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/aphunuedirin/phaxcoin/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:5:5: error: function declaration isn’t a prototype [-Werror=strict-prototypes]
+ int main(){return 0;}
+     ^
+/home/aphunuedirin/phaxcoin/CMakeFiles/CMakeTmp/CheckIncludeFiles.c: In function ‘main’:
+/home/aphunuedirin/phaxcoin/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:5:5: error: old-style function definition [-Werror=old-style-definition]
+cc1: all warnings being treated as errors
+make[1]: *** [CMakeFiles/cmTryCompileExec3829308838.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory `/home/aphunuedirin/phaxcoin/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3829308838/fast] Error 2
+
+Source:
+/* */
+#include <pthread.h>
+
+
+int main(){return 0;}
+

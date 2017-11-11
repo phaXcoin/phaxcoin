@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/aphunuedirin/phaxcoin/src/Common/Util.cpp
+Util.h
+/home/aphunuedirin/phaxcoin/src/Common/Util.h
+cstdio
+-
+boost/filesystem.hpp
+-
+CryptoNoteConfig.h
+/home/aphunuedirin/phaxcoin/src/Common/CryptoNoteConfig.h
+windows.h
+-
+shlobj.h
+-
+strsafe.h
+-
+sys/utsname.h
+-
+
+/home/aphunuedirin/phaxcoin/src/Common/Util.h
+string
+-
+system_error
+-
+
+src/CryptoNoteConfig.h
+cstdint
+-
+initializer_list
+-
+
